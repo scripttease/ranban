@@ -1,24 +1,25 @@
-# README
+#Ranban
+=======
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a kanban board implemented in Rails
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Ensure you have the correct Ruby version installed. See the `.ruby-version` file.
 
-* System dependencies
+```shell
+# Install bundler, the dependency manager
+gem install bundler
 
-* Configuration
+# Install the dependencies
+bundle install
 
-* Database creation
+# Run the tests
+bundle exec rails
 
-* Database initialization
+# Run the application
+bundle exec rails server
 
-* How to run the test suite
+# Now go to localhost:3000
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
